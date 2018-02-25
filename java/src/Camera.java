@@ -5,7 +5,6 @@ public class Camera implements IPositionnable, IAllumable {
     private float y = 0;
     private float z = 0;
 
-
     @Override
     public void allumer() {
         this.allumer = true;
@@ -15,7 +14,6 @@ public class Camera implements IPositionnable, IAllumable {
     public void eteindre() {
         this.allumer = false;
     }
-
 
     @Override
     public float getX() {
